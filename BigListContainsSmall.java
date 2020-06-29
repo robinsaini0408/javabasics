@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class App {
+public class ApplicationForListCheck {
 
 	public static boolean containsOrNot(List<String> l1, List<String> l2) {
 		List<String> bigList = (l1.size() > l2.size()) ? l1 : l2;
