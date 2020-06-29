@@ -7,8 +7,10 @@ public class App {
 
 	public static boolean containsOrNot(List<String> l1, List<String> l2) {
 		boolean result = false;
+		int sizeOfSmallerList = 0;
 		List<String> bigList = (l1.size() > l2.size()) ? l1 : l2;
 		List<String> smallList = (l1.size() <= l2.size()) ? l1 : l2;
+		sizeOfSmallerList = smallList.size();
 		if (bigList.containsAll(smallList)) {
 			int start = 0;
 			for (int i = 0; i < bigList.size(); i++) {
