@@ -3,7 +3,7 @@ package JavaList.java.basics;
 import java.util.ArrayList;
 import java.util.List;
 
-public class App {
+public class ApplicationForListCheck {
 
 	public static boolean containsOrNot(List<String> l1, List<String> l2) {
 		boolean result = false;
